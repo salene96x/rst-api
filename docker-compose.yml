@@ -1,0 +1,8 @@
+services:
+  api:
+    container_name: 'API'
+    build:
+      context: ./docker
+    ports:
+      - '6969:6969'
+    tty: true
